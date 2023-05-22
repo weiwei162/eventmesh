@@ -15,7 +15,7 @@ Add a new connector by implementing the source/sink interface using :
 
 [eventmesh-sdk-java](https://github.com/apache/eventmesh/tree/master/eventmesh-sdks/eventmesh-sdk-java)
 
-[eventmesh-connector-api](https://github.com/apache/eventmesh/tree/master/eventmesh-connector-sdks/eventmesh-connector-sdks-java)
+[eventmesh-connector-api](https://github.com/apache/eventmesh/tree/master/eventmesh-connector-sdks/eventmesh-connector-sdk-java)
 
 ## Connector Release Status
 EventMesh uses a grading system for connectors to help you understand what to expect from a connector:
