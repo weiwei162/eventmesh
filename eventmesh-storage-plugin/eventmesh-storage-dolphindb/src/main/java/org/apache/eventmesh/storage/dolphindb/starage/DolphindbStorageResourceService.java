@@ -15,11 +15,19 @@
  * limitations under the License.
  */
 
-dependencies {
-    implementation project(":eventmesh-runtime")
+package org.apache.eventmesh.storage.dolphindb.starage;
 
-    //插件
-    //implementation project(":eventmesh-connectors:eventmesh-connector-rocketmq")
-    //implementation project(":eventmesh-connectors:eventmesh-connector-jdbc")
-    //implementation project(":eventmesh-connectors:eventmesh-connector-rabbitmq")
+import org.apache.eventmesh.api.storage.StorageResourceService;
+
+public class DolphindbStorageResourceService implements StorageResourceService {
+
+    @Override
+    public void init() throws Exception {
+
+    }
+
+    @Override
+    public void release() throws Exception {
+
+    }
 }
